@@ -1,0 +1,17 @@
+.social-links {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 40px;
+  padding: 20px 20px;
+
+  a {
+    color: #fff;
+
+    text-decoration: none;
+
+    :hover {
+      color: #ccc;
+    }
+  }
+}

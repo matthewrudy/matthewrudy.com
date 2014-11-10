@@ -5,6 +5,7 @@ body {
   font-size: 18px;
 }
 
-@import "modules/cover";
-
-
+@import
+  "modules/cover",
+  "modules/project",
+  "modules/social_links"
