@@ -1,23 +1,55 @@
 ---
-layout: default
+layout: home
 ---
 
-<div class="home">
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <h2 class="page-header">
+          I'm Matthew Rudy Jacobs
+      </h2>
+      <p class="lead">
+        I passionately believe in building great software
+      </p>
 
-  <h1 class="page-heading">Posts</h1>
+      <p>
+        I started coding professionally in 2006.
+        While my first job only lasted 3 months, it gave me that first step into building.
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        blah blah blah
+      </p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      <p>
+        A paragraph about my skills
+      </p>
+    </div>
+  </div>
+</section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<section id="projects">
+  <div class="container">
+    <div class="row">
+      <h3 class="project">
+        Cronycle.com
+      </h3>
+      <p>
+        Like Twitter but without the conversation
+      </p>
 
-</div>
+      <p>
+        This was a lot of work on the back-end.
+        We'd take your tweets, grab any links, scrape the content, and make it searchable.
+      </p>
+
+      <ul>
+        <li>Ruby</li>
+        <li>Rails</li>
+        <li>ElasticSearch</li>
+        <li>AWS</li>
+        <li>Heroku</li>
+        <li>Postgres</li>
+        <li>Sidekiq</li>
+      </ul>
+    </div>
+  </div>
+</section>

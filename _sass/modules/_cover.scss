@@ -1,0 +1,30 @@
+.cover {
+  background: url('/images/cover-nov-2014.jpg') no-repeat center top;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 692px;
+  width: 100%;
+  background-size: 100%;
+  background-size: cover;
+
+  padding-top: 500px;
+}
+
+.cover-title {
+  background-color: rgba(0,0,0,0.5);
+
+  h1 {
+    font-size: 70px;
+    color: #fff;
+  }
+
+  h2 {
+    font-size: 45px;
+    color: #ccc;
+  }
+
+  h1, h2 {
+    font-weight: 300;
+  }
+}
