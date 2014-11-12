@@ -5,31 +5,29 @@
 
   <body>
 
-    <section id="cover" class="cover">
+    <header id="cover" class="cover">
       <div class="cover-title">
         <div class="container">
-          <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
             <h1>
               Matthew Rudy Jacobs
             </h1>
 
             <h2>
-              Developer and wannabe-CTO in Taipei
+              Developer and wannabe-CTO
             </h2>
           </div>
         </div>
       </div>
       {% include social-links.html %}
-    </section>
+    </header>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <article class="home-content">
+      <div class="container">
+        <div class="col-lg-8 col-lg-offset-2">
+          {{ content }}
+        </div>
       </div>
-    </div>
-
-
-
+    </article>
   </body>
-
 </html>
