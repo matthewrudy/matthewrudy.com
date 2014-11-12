@@ -16,3 +16,7 @@ github_username:  matthewrudy
 
 # Build settings
 markdown: kramdown
+
+# Plugins
+gems:
+  - jekyll-sitemap
