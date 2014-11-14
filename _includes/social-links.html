@@ -1,17 +1,7 @@
 <aside class="social-links">
-  <a href="https://github.com/matthewrudy" title="MatthewRudy on Github">
-    <i class="fa fa-github-square"></i>
-  </a>
-
-  <a href="https://twitter.com/matthewrudy" title="@matthewrudy on Twitter">
-    <i class="fa fa-twitter-square"></i>
-  </a>
-
-  <a href="https://www.linkedin.com/in/matthewrudy" title="Matthew Rudy Jacobs on LinkedIn">
-    <i class="fa fa-linkedin-square"></i>
-  </a>
-
-  <a href="mailto:matthewrudyjacobs@gmail.com" title="email Matthew Rudy">
-    <i class="fa fa-envelope-square"></i>
-  </a>
+  {% for social_link in site.data.social_links %}
+    <a href="{{social_link.link}}" title="Matthew Rudy Jacobs on {{social_link.name}}">
+      <i class="fa fa-{{social_link.icon}}-square"></i>
+    </a>
+  {% endfor %}
 </aside>

@@ -1,0 +1,15 @@
+- name: Github
+  link: "https://github.com/matthewrudy"
+  icon: github
+
+- name: Twitter
+  link: "https://twitter.com/matthewrudy"
+  icon: twitter
+
+- name: LinkedIn
+  link: "https://www.linkedin.com/in/matthewrudy"
+  icon: LinkedIn
+
+- name: Email
+  link: "mailto:matthewrudyjacobs@gmail.com"
+  icon: envelope
