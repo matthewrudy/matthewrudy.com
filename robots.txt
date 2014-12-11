@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-sitemap: http://matthewrudy.com/sitemap.xml
+sitemap: https://matthewrudy.com/sitemap.xml
