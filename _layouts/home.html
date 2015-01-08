@@ -4,27 +4,42 @@
   {% include head.html %}
 
   <body>
-
     <header id="cover" class="cover">
-      <div class="cover-title">
-        <div class="container">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h1>
-              Matthew Rudy Jacobs
-            </h1>
-
-            <h2>
-              Developer and wannabe-CTO
-            </h2>
-          </div>
-        </div>
-      </div>
+      {% include cover.html %}
       {% include social-links.html %}
     </header>
 
     <article class="home-content">
       <div class="container">
-        <div class="col-lg-8 col-lg-offset-2">
+        <aside class="col-lg-2">
+<!--           <h3>
+            Social Media
+          </h3>
+
+          <ul>
+            {% for social_link in site.data.social_links %}
+            <li>
+              <a href="{{social_link.link}}" title="MatthewRudy on {{social_link.name}}">
+                <i class="fa fa-{{social_link.icon}}-square"></i>
+                {{social_link.name}}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+
+          <hr>
+
+          <h3>Recent posts</h3>
+          <ul>
+            {% for post in site.posts %}
+            <li>
+              <a class="post-link" href="{{ post.url | repend: site.baseurl }}">{{ post.title }}</a>
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            </li>
+            {% endfor %}
+          </ul> -->
+        </aside>
+        <div class="col-lg-8">
           {{ content }}
         </div>
       </div>

@@ -17,6 +17,9 @@ github_username:  matthewrudy
 # Build settings
 markdown: kramdown
 
+permalink: "blog/:title/"
+
+
 # Plugins
 gems:
   - jekyll-sitemap
