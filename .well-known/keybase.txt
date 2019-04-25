@@ -1,0 +1,53 @@
+https://keybase.io/matthewrudy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://matthewrudy.com
+  * I am matthewrudy (https://keybase.io/matthewrudy) on keybase.
+  * I have a public key ASDPM3SWaWUoG9F0eHdI5FktztR-GX9EX2Db7Ea7hDPG3Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120189cb57a3421f20f5465506a6d1e01f1b13eb337a5372d3164a65c44695d11ab0a",
+      "host": "keybase.io",
+      "kid": "0120cf3374966965281bd174787748e4592dced47e197f445f60dbec46bb8433c6dc0a",
+      "uid": "b8154395b989323a23caca37ed69b800",
+      "username": "matthewrudy"
+    },
+    "merkle_root": {
+      "ctime": 1556188961,
+      "hash": "17c2801e51f737603a8471cabaec17f5ccbccdf745476ebe0bb236b13822d2dfcdd9582b491da634c03ecd1d57bdcd02440e72fe29f54445b801bcb8f731f715",
+      "hash_meta": "b2b3f4a8a2fac9348719e064c12186b76fea6f01954399a592b3669ce351873f",
+      "seqno": 5238494
+    },
+    "service": {
+      "entropy": "FXd8zrpPAjnI9UCbTjHc5O1J",
+      "hostname": "matthewrudy.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.2.2"
+  },
+  "ctime": 1556188975,
+  "expire_in": 504576000,
+  "prev": "99bd4a36b80fd072a354dafa2ef120c3673e8bc7ca647afab87a420e31471344",
+  "seqno": 27,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzzN0lmllKBvRdHh3SORZLc7Ufhl/RF9g2+xGu4QzxtwKp3BheWxvYWTESpcCG8Qgmb1KNrgP0HKjVNr6LvEgw2c+i8fKZHr6uHpCDjFHE0TEIA2NoIx+Zz8HI9If7VhFfEPEdqrKFvClfctC8j95sjUvAgHCo3NpZ8RAO66SZN7petN2q4MlWR1KZIpeuxA1hov5CABbpFHE3X+1tOvTt4srZYvaw1gj/8eCnRARQAwmnP4UL1sTx3U6AahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIO3XHkoEV0atxW2cwIwFIzlD1EMBE4BZ7fVK0aE+aHWso3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/matthewrudy
