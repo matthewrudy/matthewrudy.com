@@ -19,6 +19,9 @@ markdown: kramdown
 
 permalink: "blog/:title/"
 
+# allow keybase.txt
+include: [".well-known"]
+
 
 # Plugins
 gems:
